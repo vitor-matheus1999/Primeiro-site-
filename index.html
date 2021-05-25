@@ -1,0 +1,103 @@
+ 
+<!DOCTYPE html> 
+
+<html lang="pt-br">
+	
+	<script>	
+		// A tag DOCTYPE é necessario ser colocado no começo para o navegador escolhido reconhecer e ter a melhor leitura da programação, passando para o navegador qual versão do html está sendo usada. 
+
+		//Foi nos dado a tag head e body para poder dar estrutura ao codigo. 
+
+		//-O head serve para passar as informações para o navegador.
+		//E o body para passar as informações a serem contidas na pagina.
+		//-quando colocada uma string dentro da tag head ela ainda aparece no pagina.
+	</script>
+	
+	<head> 
+		<meta charset="UTF-8">
+		<meta name="viewport" content = "width = device-width">
+		<title> Barbearia Alura </title>
+
+		<link rel = "stylesheet" href = "reset.css">
+		<link rel = "stylesheet" href = "style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	</head>
+
+	
+	<body>
+
+		<header> 
+			
+			<div class = "caixa">
+				<h1><img src ="logo.png" alt = "logo barbearia alura"> </h1>
+				
+				<nav>
+					<ul>
+						<li><a href = "index_css.html"> Home</a></li>
+						<li><a href = "produtos_barbearia.html"> Produtos</a></li>
+						<li><a href = "contatos_barbearia.html"> Contatos</a></li>
+					</ul>
+				</nav>	
+			</div>
+		</header>
+
+		<img class= "banner" src = "reforma-de-barbearia.jpg">
+		
+		<main>	
+			
+			<section class = "texto-principal">
+				
+				<h2 class = "titulo-principal"> Sobre a Barbearia Alura </h2>
+
+				<img class = "utensilion" src = "utensilios.jpg">
+
+					
+					<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+
+					<p> Nossa missão é:<em><strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong></em></p>
+
+					<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+			</section>
+
+			<section class = "mapa">
+
+				<h3 class = "titulo-principal"> Nossa localização </h3>
+
+				<p> A barbearia Alura está localizada no coração da cidade de São Paulo.</p>
+
+				<div class = "mapa-conteudo">
+
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117006.35074277919!2d-46.7025025417969!3d-23.588244300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1616168735142!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</section>
+			
+			<section class = "beneficios">
+				
+				<h3 class= "titulo-principal">Benefícios</h3>
+			
+				<div class = "lista-conteudo">
+					<ul class = "lista">
+					
+						<li class = 'item'>Atendimento aos Clientes</li>
+						<li class = 'item'>Espaço diferenciado</li>
+						<li class = 'item'>Qualificação</li>
+						<li class = 'item'>Profissionais qualificados</li>	
+						<li class = 'item'>Pontualidade</li>
+						<li class = 'item'>Limpeza</li>
+					</ul><img src = "beneficios.jpg" class = "imagem-beneficios"> <!-- Para que a imagem não ocupe a outra parte e ambos os conteudos estejam um do lado do outro é preciso colocar o código da imagem do lado do da lista.  -->
+				</div>
+
+				<div class = "video">
+					
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>
+		</main>
+		
+		<footer>
+
+			<img src = "logo-branco.png" alt = "logo barbearia alura">
+			<p class = "copyright"> &copy; Copyright Barbearia Alura - 2021</p>
+		</footer>
+	</body>
+<html>
